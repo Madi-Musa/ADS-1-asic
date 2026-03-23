@@ -1,27 +1,27 @@
-def print_1_to_n(n):
+def print 1 to n (n):
     if n == 0:
         return
-    print_1_to_n(n - 1)
+    print 1 to n (n - 1)
     print(n, end=" ")
 
 
-def print_n_to_1(n):
+def print n to 1(n):
     if n == 0:
         return
     print(n, end=" ")
-    print_n_to_1(n - 1)
+    print n to 1(n - 1)
 
 
-def sum_natural(n):
+def sum_naturals(n):
     if n == 0:
         return 0
-    return n + sum_natural(n - 1)
+    return n + sum_naturals(n - 1)
 
 
-def factorial(n):
+def fact(n):
     if n == 0 or n == 1:
         return 1
-    return n * factorial(n - 1)
+    return n * fact(n - 1)
 
 
 def power(a, b):
@@ -49,12 +49,12 @@ def reverse_number(n):
     reverse_number(n // 10)
 
 
-def fibonacci(n):
+def fibo(n):
     if n == 0:
         return 0
     if n == 1:
         return 1
-    return fibonacci(n - 1) + fibonacci(n - 2)
+    return fibo(n - 1) + fibo(n - 2)
 
 
 def is_palindrome(s, left, right):
